@@ -1,0 +1,29 @@
+{
+    "name": "advpl-labs",
+    "displayName": "Advpl Labs",
+    "description": "Snippets Extension for ADVPL language desenvolvido por Leandro Lemos - linkedin.com/in/leandrolemoss",
+    "version": "0.0.1",
+    "publisher": "leandrolemos",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "advpl",
+            "path": "./snippets/snippets.code-snippets"
+        }]
+    },
+    "icon": "/images/logo.png",
+    "bugs": {
+        "url": "https://github.com/lemossleandro/advpllabs/issues",
+        "email": "leandro.lemos@erplabs.com.br"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lemossleandro/advpllabs.git"
+    },
+    "homepage": "https://github.com/lemossleandro/advpllabs/blob/master/README.md"
+}

@@ -1,0 +1,49 @@
+{
+    "The DO CASE ... ENDCASE command is a structured programming command that selects only one alternative among a set of paths for the course of the execution flow. The selected path is the first path for which a specified condition is evaluated as true.": {
+        "prefix": "case",
+        "body": [
+            "Do Case",
+            "Case (${1:cVarRef1} ${2:==} ${3:cVarRef2})",
+            "/*instructions*/",
+            "OTHERWISE ",
+            "/*instructions*/",
+            "End Do"
+        ],
+        "description": "The DO CASE ... ENDCASE command is a structured programming command that selects only one alternative among a set of paths for the course of the execution flow. The selected path is the first path for which a specified condition is evaluated as true."
+    },
+    "WHILE is a programming flow control command that enables an instruction block to be repeatedly run while a determined condition is true. This type of programming structure is called “loop” or repetition.": {
+        "prefix": "while",
+        "body": [
+            "While (${1:cVarRef1} ${2:==} ${3:cVarRef2})",
+            "//instructions",
+            "End Do"
+        ],
+        "description": "WHILE is a programming flow control command that enables an instruction block to be repeatedly run while a determined condition is true. This type of programming structure is called “loop” or repetition."
+    },
+    "The command IF ... ENDIF is the structured programming command that enables the conditional run of an instructions block. It is also known as conditional deviation.": {
+        "prefix": "if",
+        "body": [
+            "IF (${1:/*condition*/})",
+            "/*instructions*/",
+            "ELSE ",
+            "/*instructions*/",
+            "ENDIF"
+        ],
+        "description": "The command IF ... ENDIF is the structured programming command that enables the conditional run of an instructions block. It is also known as conditional deviation."
+    },
+    "ElseIF ... identifies the instructions block is run if the condition IF is false (.F.). In this case, the instructions between the ELSE or the ENDIF are run. If there is no ELSE, the processing flow is deviated to the first instruction after the ENDIF.": {
+        "prefix": "elseif",
+        "body": [
+            "ElseIF (${1:/*condition*/})      ",
+            "/*instructions*/"
+        ],
+        "description": "It identifies the instructions block is run if the condition IF is false (.F.). In this case, the instructions between the ELSE or the ENDIF are run. If there is no ELSE, the processing flow is deviated to the first instruction after the ENDIF."
+    },
+    "Posicione ... returns the content of a field of a data file, according to the search key.": {
+        "prefix": "posicione",
+        "body": [
+            "POSICIONE( '${1:cAlias}', ${2:nOrdem}, ${3:cChave}, '${4:cCampo}' )"
+        ],
+        "description": "It returns the content of a field of a data file, according to the search key."
+    }
+}
