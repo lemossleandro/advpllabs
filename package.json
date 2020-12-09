@@ -16,7 +16,7 @@
             "path": "./snippets/snippets.code-snippets"
         }]
     },
-    "icon": "/images/logo.png",
+    "icon": "images/logo.png",
     "bugs": {
         "url": "https://github.com/lemossleandro/advpllabs/issues",
         "email": "leandro.lemos@erplabs.com.br"
